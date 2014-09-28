@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="com.nag.android.kurikuri.FlipView">
+        <attr name="images" format="reference" />
+    </declare-styleable>
+</resources>

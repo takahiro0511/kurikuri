@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="flip_images_congraturation">
+        <item>@drawable/congratulation1</item>
+        <item>@drawable/congratulation2</item>
+    </array>
+	<array name="flip_images_ready">
+        <item>@drawable/sign_ready1</item>
+        <item>@drawable/sign_ready2</item>
+    </array>
+</resources>

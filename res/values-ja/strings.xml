@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">くりくり</string>
+    <string name="action_select_image">よむよむ</string>
+    <string name="action_reset">ないない</string>
+    <string name="action_settings">設定</string>
+    <string name="action_help">ヘルプ</string>
+    <string name="label_drag_4_shuffle">まぜまぜの長さ</string>
+    <string name="label_taps_4_shuffle">まぜまぜの回数</string>
+    <string name="label_mute_sound">静かにする</string>
+    <string name="label_score_shuffle_times">"まぜまぜの回数 : "</string>
+    <string name="label_score_shuffle_length">"まぜまぜの長さ : "</string>
+    <string name="label_score_result_taps">"タップの回数 : "</string>
+    <string name="label_score_result_time">"かかった時間 : "</string>
+    <string name="label_score_unit_second">"秒"</string>
+    
+</resources>

@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayoutBase"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nkj52_gotugotutailutex"
+    tools:context=".MainActivity" >
+    
+        <RelativeLayout
+            android:id="@+id/RelativeLayoutMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+
+            <com.nag.android.util.FlipView
+                android:id="@+id/flipViewCongratulation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="82dp"
+                android:src="@drawable/congratulation1"
+                interval = "100"
+                images="@+array/flip_images_congraturation" />
+
+            <TextView
+                android:id="@+id/textViewScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/flipViewCongratulation"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="32dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/score_frame"
+                android:gravity="center"
+                android:text="Score"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
