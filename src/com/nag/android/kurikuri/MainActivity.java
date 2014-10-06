@@ -124,6 +124,7 @@ public class MainActivity extends Activity implements OnTouchListener, ResourceM
 		{
 		case R.id.action_select_image:
 			selectImage();
+			state = new ReadyState(this);
 			break;
 		case R.id.action_reset:
 //			board.shuffle(prop.getTaps4Shuffle(), prop.getDragLength4Shuffle());
