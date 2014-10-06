@@ -24,9 +24,9 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdSize;
+//import com.google.android.gms.ads.AdView;
 
 public class MainActivity extends Activity implements OnTouchListener, ResourceManager{
 
@@ -38,7 +38,7 @@ public class MainActivity extends Activity implements OnTouchListener, ResourceM
 	private Score score = null;
 	private Properties prop;
 	private State state;
-	AdView adView;
+	//AdView adView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -46,14 +46,14 @@ public class MainActivity extends Activity implements OnTouchListener, ResourceM
 		setContentView(R.layout.activity_main);
 		RelativeLayout view=(RelativeLayout)findViewById(R.id.RelativeLayoutMain);
 		view.setOnTouchListener(this);
-		adView = new AdView(this);
-		adView.setAdUnitId(this.getResources().getString(R.string.admob_id));
-		adView.setAdSize(AdSize.BANNER);
+//		adView = new AdView(this);
+//		adView.setAdUnitId(this.getResources().getString(R.string.admob_id));
+//		adView.setAdSize(AdSize.BANNER);
 		FrameLayout.LayoutParams adParams = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.WRAP_CONTENT);
 		adParams.gravity = (Gravity.BOTTOM|Gravity.CENTER);
-		addContentView(adView, adParams);
+//		addContentView(adView, adParams);
 
-		adView.loadAd(new AdRequest.Builder().build());
+//		adView.loadAd(new AdRequest.Builder().build());
 		findViewById(R.id.flipViewCongratulation).setVisibility(View.GONE);
 		findViewById(R.id.textViewScore).setVisibility(View.GONE);
 		prop = Properties.getInstance(this);
